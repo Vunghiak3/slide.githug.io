@@ -1,0 +1,56 @@
+// let pic = document.querySelector(".pictures");
+
+      // let pressed = false;
+      // let startx;
+      // let x;
+
+      // pic.addEventListener("mousedown", (e) => {
+      //   pressed = true;
+      //   startx = e.offsetX - slide.offsetWidth;
+      //   pic.style.cursor = "grabbing";
+      // });
+
+      // pic.addEventListener("mouseenter", () => {
+      //   pic.style.cursor = "grab";
+      // });
+
+      // pic.addEventListener('mouseleave', ()=>{
+      //   pic.style.cursor = 'default'
+      // })
+
+      // pic.addEventListener("mouseup", () => {
+      //   pic.style.cursor = "grab";
+      // });
+
+      // window.addEventListener("mouseup", () => {
+      //   pressed = false;
+      // });
+
+      // pic.addEventListener("mousemove", (e) => {
+      //   if (!pressed) return;
+      //   e.preventDefault();
+      //   x = e.offsetX;
+      //   slide.style.left = `${startx}px`;
+      // });
+      // function checkboundary(){
+      //   let outer = pic.getBoundingClientRect()
+      //   let inner = slide.getBoundingClientRect()
+
+      //   if(parseInt(slide.style.left) > 0){
+      //     slide.style.left = 0
+      //   }
+      //   else if(inner.right < outer.right){
+      //     slide.style.left = `-${inner.width - outer.width}`
+      //   }
+      // }
+      // checkboundary()
+
+
+
+      <div class="dots">
+    <div class="dot-item"></div>
+    <div class="dot-item"></div>
+    <div class="dot-item"></div>
+    <div class="dot-item"></div>
+    <div class="dot-item"></div>
+  </div>
